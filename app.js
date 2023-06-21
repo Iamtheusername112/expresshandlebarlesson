@@ -10,6 +10,7 @@ app.get("/", (require, response) => {
     name: "Francis iwu",
     campus: "Berlin",
     nationality: "Nigerian",
+    bootcamp: "<span>Ironhack Web Dev</span>",
   };
   response.render("index", Ironhack);
 });
